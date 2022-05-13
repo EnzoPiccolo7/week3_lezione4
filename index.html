@@ -1,0 +1,28 @@
+<!-- input nella pagina al click prendo il testo nell input e quel testo me lo stampo tutto in maiuscolo, 
+    in minuscolo, 
+e la suddividiamo la stringa con lo (.split) e mi prendo solo due parti e le concateno
+poi crea un array con nomi di persone , leggi il terzo  e dai un valore ad una varibile e leggi tramite .lenght
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+    <div>
+        <h1>REGISTRATI</h1>
+        <input type="text" id="nome"  placeholder="Inserisci nome e cognome" required>
+        <button id="bottone" onclick="bottone()" >Clicca qui</button>
+        <p><span id="maiuscolo"></span> <span id="minuscolo"></span></p>
+        <p id="split"></p>
+        
+    </div>
+
+
+    <script src="js/script.js"></script>
+ </body>
+ </html>

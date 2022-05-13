@@ -1,0 +1,36 @@
+body div {
+    margin-top: 10rem;
+    margin-right: 100%;
+    margin-left: 10rem;
+    border: 5px rgb(210, 23, 23) solid;
+    padding-left: 2rem;
+    width: 1400px;
+    height: 600px;
+    background: red;
+    animation: mymove 20s infinite;
+  }
+  
+  @keyframes mymove {
+    from {background-color: red;}
+    50% {background-color:yellow;}
+    to {background-color: blue;color: white;}
+  }
+
+
+H1 {
+    text-align: center;
+}
+div button {
+    font-size: 1.2rem;
+    width: 10.4%;
+    margin-top: 1rem; 
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 71%); 
+    color: white;
+}
+div input {
+    font-size: 1.2rem;
+}
+p {
+    font-size: 2rem;
+}
